@@ -4,7 +4,7 @@ import GoogleProvider from "next-auth/providers/google";
 import User from "../../../../models/user";
 import { connectToDb } from "@/utils/database";
 
-export const maxDuration = 15; // This function can run for a maximum of 5 seconds
+export const maxDuration = 10; // This function can run for a maximum of 5 seconds
 export const dynamic = 'force-dynamic';
 
 
